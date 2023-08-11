@@ -1,4 +1,8 @@
 create database ExerciseDb
+on primary
+(name = ExerciseDb_data,
+filename = 'M:\Simplilearn\mphasis\Phase-2\day-2\Assign2\ExerciseDb_data.mdf')
+-------------------
 use ExerciseDb
 
 -- Create the Publisher table
